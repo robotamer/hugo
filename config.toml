@@ -1,0 +1,28 @@
+baseurl = ""
+languageCode = "en-us"
+title = "RoboTamer"
+MetaDataFormat = "toml"
+pygmentsuseclasses = false
+theme = "hugo-flex"
+
+[indexes]
+  tag = "tags"
+  group = "groups"
+
+
+[[menu.linux]]
+    name = "bash"
+    url = "/code/linux"
+    weight = -200
+
+
+[[menu.main]]
+    name = "Linux"
+    url = "/code/linux"
+    weight = -200
+
+[[menu.main]]
+    name = "PHP"
+    pre = "<i class='fa fa-cubes'></i>"
+    url = "/code/php/"
+    weight = -180
