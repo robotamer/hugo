@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+<section id="main">
+<ul>
+  {{ range .Site.Taxonomies.series.go }}
+    <li><a href="{{ .Url }}">{{ .Name }}</a></li>
+  {{ end }}
+</ul>
+</section>
+{{ partial "footer.html" . }}

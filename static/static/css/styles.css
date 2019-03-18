@@ -1,0 +1,26 @@
+body {
+    padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgb(25,71,86);
+}
+
+#footer {
+    margin-bottom: 2em;
+}
+
+.right {
+	float: right;
+}
+
+/* Generated via www.cssmenubuilder.com */
+.dropdown-submenu{margin:0 auto; padding:0; height:1.5em; width:100%; display:block; background:url('/static/img/menuImages.png') repeat-x;}
+.dropdown-submenu li{padding:0; margin:0; list-style:none; display:inline;}
+.dropdown-submenu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; cursor:pointer; background:url('/static/img/menuImages.png') 0px -30px no-repeat;}
+.dropdown-submenu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('/static/img/menuImages.png') 100% -30px no-repeat;}
+.dropdown-submenu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+.dropdown-submenu li a:hover span{background-position:100% -60px;}
+.dropdown-submenu li a.active, .dropdown-submenu li a.active:hover{line-height:1.5em; background:url('/static/img/menuImages.png') 0px -90px no-repeat; color:rgb(0,0,0);}
+.dropdown-submenu li a.active span, .dropdown-submenu li a.active:hover span{background:url('/static/img/menuImages.png') 100% -90px no-repeat;}
+

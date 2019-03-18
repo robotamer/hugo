@@ -1,0 +1,12 @@
+    <li class="list-group-item">
+        <h4>{{ .Title }} </h4>
+        {{ if len .Description }}
+            {{ .Description }}
+        {{ else }}
+            {{ .Summary }}
+        {{end}}
+        <div class="post-meta">
+            {{ .Date.Format "Mon, Jan 2, 2006" }} 
+            <a href="{{.Permalink}}"><nobr>~{{ .FuzzyWordCount }} Words →</nobr></a>
+        </div>
+    </li>

@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+<div class="jumbotron">
+    <h1>404 <small>That is an Error</small></h1>
+    <h4>The requested URL was not found on this server</h4>
+    <p>Maybe following index will help ⇓</p>
+</div>
+<section id="main">
+  <ul class="list-group">  
+    {{ range $indexname, $index := .Site.Taxonomies }}
+      <li>{{ $indexname }} 
+        <ul> 
+          {{ range $key, $value := $index }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li> 
+    {{ end }}
+  </ul>
+</section>  
+{{ partial "footer.html" . }}

@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2>{{ .Title }}</h2>
+    <h5>
+    {{ if .Date }}Date: <b>{{ .Date.Format "Mon, Jan 2, 2006" }}</b>{{ end }}
+    {{ if .Params.author }}Author: <b>{{ .Params.author }}</b>{{ end }}
+    </h5>
+  </div>
+  <div class="panel-body">
+  {{ if .Description }} <h4>{{ .Description }}</h4><hr>{{end}}
+  {{ .Content }}
+  </div>
+  <div class="panel-footer">
+    <div class="btn-group">
+      {{ range .Params.tags }}
+      <a href="/tags/{{ . }}.html"><button type="button" class="btn btn-info btn-xs">{{ . }}</button></a> 
+      {{ end }}
+    </div>  
+  </div>
+</div>
+{{ partial "footer.html" . }}

@@ -1,13 +1,26 @@
 baseurl = ""
-languageCode = "en-us"
 title = "RoboTamer"
 MetaDataFormat = "toml"
 pygmentsuseclasses = false
-theme = "hugo-flex"
+DefaultContentLanguage = "en"
+copyright = "© 2014 RoboTamer"
+uglyurls = true
+
 
 [indexes]
   tag = "tags"
   group = "groups"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "RoboTamer"
+    weight = 1
+
+  [languages.tr]
+    languageName = "Türkçe"
+    title = "RoboTamer"
+    weight = 2
 
 
 [[menu.linux]]
@@ -17,12 +30,19 @@ theme = "hugo-flex"
 
 
 [[menu.main]]
-    name = "Linux"
-    url = "/code/linux"
+    name = "About"
+    url = "/en/about"
     weight = -200
 
 [[menu.main]]
     name = "PHP"
     pre = "<i class='fa fa-cubes'></i>"
-    url = "/code/php/"
+    url = "/en/groups/php/"
+    weight = -170
+
+[[menu.main]]
+    name = "Go"
+    url = "/en/groups/go/"
     weight = -180
+
+

@@ -1,0 +1,66 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/"><img src="/static/img/robotamer.gif" alt="Logo" width="20" height="25">&nbsp; RoboTamer</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+    
+      <li><a href="/blog.html">&nbsp; Blog &nbsp;</a></li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{ range $key, $value := .Site.Taxonomies.groups.linux.Pages }}
+            <li hugo-nav="{{$value.RelPermalink}}"><a href="{{$value.Permalink}}"> {{ $value.LinkTitle }} </a> </li>
+            {{ end }}
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Go <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{ range $key, $value := .Site.Taxonomies.groups.go.Pages }}
+            <li hugo-nav="{{$value.RelPermalink}}"><a href="{{$value.Permalink}}"> {{ $value.LinkTitle }} </a> </li>
+            {{ end }}
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PHP <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{ range $key, $value := .Site.Taxonomies.groups.php.Pages }}
+            <li hugo-nav="{{$value.RelPermalink}}"><a href="{{$value.Permalink}}"> {{ $value.LinkTitle }} </a> </li>
+            {{ end }}
+        </ul>
+      </li>
+
+      <li><a href="/tr.html">&nbsp; T&#252;rk&#231;e &nbsp;</a></li>
+
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="navbar-text" style="cursor:pointer;"><small><small title="Decrease text size" onclick="resizeText(-1)">A</small></small> <b><large><large title="Increase text size" onclick="resizeText(1)">A</large></large></b></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/static/ico/i.png" alt="info" width="20" height="20"> <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{ range $key, $value := .Site.Taxonomies.groups.meta.Pages }}
+            <li hugo-nav="{{$value.RelPermalink}}"><a href="{{$value.Permalink}}"> {{ $value.LinkTitle }} </a> </li>
+            {{ end }}
+            <li><a href="/feeds.html"><img src="/static/ico/feed16x16.png" alt="Feeds" width="16" height="16"> Feeds</a></li>
+        </ul>
+      </li>
+      <li><a title="bitbucket" href="http://bitbucket.org/robotamer"><i class="icon-octocat icon-2x"></i></a></li>
+      <li><a title="rss" href="index.xml" rel="alternate" type="application/rss+xml">
+            <img src="/static/ico/feed16x16.png" alt="" style="vertical-align:middle;border:0"/>
+          </a>
+        </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>

@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<section id="main">
+  <ul class="list-group">  
+    {{ range first 10 .Data.Pages }}
+    <li class="list-group-item">
+    	<h4>{{ .Title }}</h4>
+    	<p><sup>{{ .Date.Format "Mon, Jan 2, 2006" }}</sup></p>
+    {{ if len .Description }}
+    	{{ .Description }}
+    {{ else }}
+        {{ .Summary }}
+    {{end}}
+		<br><a href="{{.Permalink}}">more ...</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ partial "footer.html" . }}
