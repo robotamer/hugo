@@ -1,48 +1,94 @@
 baseurl = ""
+theme = "mainroad"
 title = "RoboTamer"
 MetaDataFormat = "toml"
 pygmentsuseclasses = false
-DefaultContentLanguage = "en"
-copyright = "© 2014 RoboTamer"
+defaultContentLanguage = 'en'
+copyright = "© 2014 TaMeR"
+baseURL = '/'
 uglyurls = true
+canonifyURLs = true
+paginate = "10" # Number of posts per page
 
+
+[Author] # Used in authorbox
+  name = "TaMeR"
+  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/robotamer.gif"
+
+[Params]
+mainSections = ["post", "blog", 'groups']
+mathjax = false # Enable MathJax
+
+[Params.logo]
+  image = "img/robotamer.gif" # Logo image. Path relative to "static"
+  title = "RoboTamer" # Logo title, otherwise will use site title
+  subtitle = "My little space on the net"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+
+  # Enable widgets in given order
+  widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  telegram = "robotamer"
+  github = "robotamer"
+  gitlab = "robotamer"
+  bitbucket = "robotamer"
 
 [indexes]
   tag = "tags"
   group = "groups"
 
+
 [languages]
   [languages.en]
-    languageName = "English"
-    title = "RoboTamer"
-    weight = 1
-
+    contentDir = 'content/en'
+    languageName = 'English'
+    weight = 10
   [languages.tr]
-    languageName = "Türkçe"
-    title = "RoboTamer"
-    weight = 2
-
-
-[[menu.linux]]
-    name = "bash"
-    url = "/code/linux"
-    weight = -200
-
+    contentDir = 'content/tr'
+    languageName = 'Türkçe'
+    weight = 20
 
 [[menu.main]]
-    name = "About"
-    url = "/en/about"
+    name = 'About'
+    url = '/about.html'
     weight = -200
+
+[[menu.main]]
+    name = 'Contact'
+    url = '/contact.html'
+    weight = -190
+
+[[menu.main]]
+    name = "Linux"
+    pre = "<i class='fa fa-cubes'></i>"
+    url = '/linux.html'
+    weight = -160
+
 
 [[menu.main]]
     name = "PHP"
     pre = "<i class='fa fa-cubes'></i>"
-    url = "/en/groups/php/"
+    url = '/code/php.html'
     weight = -170
 
 [[menu.main]]
     name = "Go"
-    url = "/en/groups/go/"
+    url = '/code/go.html'
     weight = -180
+
+
+[[menu.linux]]
+    name = "bash"
+    url = '/code/linux.html'
+    weight = -200
 
 

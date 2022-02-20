@@ -1,11 +1,11 @@
 +++
 title = "﻿File Access and Create Time"
-date = "2015-04-25T14:02:07Z"
-linktitle = "﻿File Time"
-description = "Gets the Modified, Create and Access time of a file"
-groups = ["go"]
-keywords = ["fileinfo", "file", "time"]
 language = "en"
+date = "2015-04-25T14:02:07Z"
+description = "Gets the Modified, Create and Access time of a file"
+keywords = ["fileinfo", "file", "time"]
+linktitle = "﻿File Time"
+groups = ["go"]
 +++
 
 
