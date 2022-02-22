@@ -7,7 +7,6 @@ keywords = ["Facade", "php", "phptamer"]
 linktitle = "PHPTamer"
 tags = ["phptamer"]
 title = "PHPTamer"
-
 +++
 
 A system called PHPTamer Facade is in the works, Facade is a component dependency substitution system to achieve component interdependency via the facade programming pattern.

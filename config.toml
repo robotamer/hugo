@@ -4,20 +4,27 @@ title = "RoboTamer"
 MetaDataFormat = "toml"
 pygmentsuseclasses = false
 defaultContentLanguage = 'en'
-copyright = "© 2014 TaMeR"
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 baseURL = '/'
 uglyurls = true
 canonifyURLs = true
 paginate = "10" # Number of posts per page
 
+[taxonomies]
+  tag = 'tags'
+  serie = 'series'
+  categories = 'categories'
+  group = 'groups'
+  post = 'posts'
+  page = 'pages'
+  blog = 'blog'
 
 [Author] # Used in authorbox
   name = "TaMeR"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  bio = 'Sailor, Blogger, and Coder'
   avatar = "img/robotamer.gif"
 
 [Params]
-mainSections = ["post", "blog", 'groups']
 mathjax = false # Enable MathJax
 
 [Params.logo]
@@ -37,15 +44,16 @@ mathjax = false # Enable MathJax
 
 [Params.widgets.social]
   # Enable parts of social widget
-  telegram = "robotamer"
-  github = "robotamer"
-  gitlab = "robotamer"
-  bitbucket = "robotamer"
+  telegram = 'robotamer'
+  github = 'robotamer'
+  gitlab = 'robotamer'
+  bitbucket = 'robotamer'
+  mastodon = 'https://mastodon.social/@robotamer'
 
-[indexes]
-  tag = "tags"
-  group = "groups"
-
+[[Params.widgets.social.custom]]
+  title = 'Mastodon'
+  url = 'https://mastodon.social/@robotamer'
+  #icon = 'mastodon.svg'
 
 [languages]
   [languages.en]
@@ -57,17 +65,28 @@ mathjax = false # Enable MathJax
     languageName = 'Türkçe'
     weight = 20
 
+[menu]
 [[menu.main]]
+  identifier = 'blog'
+  name = 'Blog'
+  title = 'blog section'
+  url = '/blog.html'
+  weight = -210
+  
+[[menu.main]]
+	identifier = 'about'
     name = 'About'
     url = '/about.html'
     weight = -200
 
 [[menu.main]]
+	identifier = 'contact'
     name = 'Contact'
     url = '/contact.html'
     weight = -190
 
 [[menu.main]]
+	identifier = 'linux'
     name = "Linux"
     pre = "<i class='fa fa-cubes'></i>"
     url = '/linux.html'
@@ -75,12 +94,14 @@ mathjax = false # Enable MathJax
 
 
 [[menu.main]]
+	identifier = 'php'
     name = "PHP"
     pre = "<i class='fa fa-cubes'></i>"
     url = '/code/php.html'
     weight = -170
 
 [[menu.main]]
+	identifier = 'go'
     name = "Go"
     url = '/code/go.html'
     weight = -180
