@@ -5,6 +5,7 @@ groups = ["blog"]
 keywords = []
 language = "tr"
 title = "﻿Türkiye’de garip şeyler oluyor …"
+tags = [ 'politik', 'özgürlük' ]
 
 +++
 

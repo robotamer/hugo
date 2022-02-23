@@ -4,8 +4,8 @@ date = "2015-01-26T19:50:00Z"
 groups = ["blog"]
 keywords = ["Dünyanın üst yüzde biri", "Allah tektir, ona denk yoktur", "Örnek İnsan"]
 language = "tr"
-tags = []
 title = "Örnek İnsan"
+tags = [ 'özgürlük' ]
 
 +++
 

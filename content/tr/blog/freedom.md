@@ -5,6 +5,7 @@ groups = ["blog"]
 keywords = ["Özgür", "Özgürlük", "Zihinsel kölelik"]
 language = "tr"
 title = "Özgürlük"
+tags = [ 'politik', 'özgürlük' ]
 
 +++
 

@@ -6,6 +6,7 @@ keywords = ["Paris", "Fransa", "karikatüristler", "İslam", "İslamcılar"]
 language = "tr"
 linktitle = "Kara Günler"
 title = "Kara Günler"
+tags = [ 'politik', 'özgürlük' ]
 
 +++
 

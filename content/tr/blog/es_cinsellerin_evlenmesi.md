@@ -2,9 +2,10 @@
 date = "2013-11-20T19:50:00Z"
 description = ""
 groups = ["blog"]
-keywords = ["Eş cinsel", "insanlar", "evlenme"]
+keywords = ["Eş cinsel", "insanlar", "evlenme", 'politik', 'gündem']
 language = "tr"
 title = "﻿Eş cinsel insanların evlenme haki"
+tags = [ 'politik', 'gündem' ]
 
 +++
 

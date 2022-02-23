@@ -5,6 +5,7 @@ groups = ["blog"]
 keywords = []
 language = "tr"
 title = "Yürüdüm"
+tags = [ 'ilham' ]
 
 +++
 
