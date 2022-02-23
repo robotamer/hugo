@@ -1,20 +1,23 @@
 +++
 date = '2021-10-16'
-title = 'A way to weigh whether you are on the "right side of history"'
-description = ""
-keywords = ["thoughts"]
-language = "en"
+title = 'Right side of history'
+description = 'A way to weigh whether you are on the "right side of history"'
+keywords = ["thoughts", 'history']
+language = 'en'
 thumbnail = ''
 categories = [ '' ]
 tags = [ 'thoughts' ]
-groups = ["blog"]
+groups = ['blog']
 +++
 
 
+A way to weigh whether you are on the "right side of history"
+-------------------------------------------------------------
+
 There are two ways to run a people.
 
-1) Unite and sterilize
-2) Divide and rule
+1) Unite & Sterilize
+2) Divide & Rule
 
 The "unite and sterilize" method is used by the Marxist based governors.
 

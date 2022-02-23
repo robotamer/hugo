@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = 'https://blog.tamer.pw'
 #theme = 'congo'
 theme = 'mainroad'
 title = "RoboTamer"
@@ -40,22 +40,20 @@ mathjax = false # Enable MathJax
   single = false  # Configure layout for single pages
 
   # Enable widgets in given order
-  widgets = ["ddg-search", "languages", "recent", "categories", "taglist", "social"]
+  # widgets = ["search", "languages", "recent", "categories", "taglist", "social"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["ddg-search", "languages", "recent", "categories", "taglist", "social"]
 
-[parms.widgets.social]
-  # Enable parts of social widget
+[params.widgets.social]
   telegram = 'robotamer'
   github = 'robotamer'
   gitlab = 'robotamer'
   bitbucket = 'robotamer'
-  mastodon = 'https://mastodon.social/@robotamer'
 
-[[parms.widgets.social.custom]]
+[[ params.widgets.social.custom ]]
   title = 'Mastodon'
   url = 'https://mastodon.social/@robotamer'
-  #icon = 'mastodon.svg'
+  icon = 'mastodon.svg'
 
 [languages]
   [languages.en]
