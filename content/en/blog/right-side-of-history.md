@@ -52,3 +52,5 @@ Weighing up of whether your argument is on the right side of life is as easy as 
 
 We must allow people to make their own mistakes. Because even to adopt the principle of learning from others mistake must be learned, how to stand on giants solders, must be learned.
 There is a fine line between teaching and manipulating. Teaching must permit questioning, and must be a deep dive, otherwise you are indoctrinating not teaching.
+
+{{< chat right-side-history >}}

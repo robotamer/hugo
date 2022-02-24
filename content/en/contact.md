@@ -9,4 +9,4 @@ groups_weight = 50
 tags = []
 +++
 
-[![](/svg/mastodon.svg) Mastodon](https://mastodon.social/@robotamer)
+{{< social >}}

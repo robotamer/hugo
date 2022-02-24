@@ -1,14 +1,13 @@
+title = "RoboTamer"
 baseurl = 'https://blog.tamer.pw'
+uglyurls = true
+canonifyURLs = true
 #theme = 'congo'
 theme = 'mainroad'
-title = "RoboTamer"
 MetaDataFormat = "toml"
 pygmentsuseclasses = false
 defaultContentLanguage = 'en'
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
-baseURL = '/'
-uglyurls = true
-canonifyURLs = true
 paginate = "10" # Number of posts per page
 
 [taxonomies]
@@ -49,11 +48,19 @@ mathjax = false # Enable MathJax
   github = 'robotamer'
   gitlab = 'robotamer'
   bitbucket = 'robotamer'
+  mastadon = 'https://mastodon.social/@robotamer'
+  matrix = '@tamer:envs.net'
 
 [[ params.widgets.social.custom ]]
   title = 'Mastodon'
   url = 'https://mastodon.social/@robotamer'
   icon = 'mastodon.svg'
+
+[[ params.widgets.social.custom ]]
+  title = '[m] Matrix'
+  url = 'https://www.matrix.to/#/@tamer:envs.net'
+ # icon = '/svg/matrix.svg'
+
 
 [languages]
   [languages.en]

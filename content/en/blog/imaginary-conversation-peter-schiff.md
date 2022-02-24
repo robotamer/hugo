@@ -52,3 +52,5 @@ Gold is a subpar money because it is needed in industry.
 >***thinking***
 
 [1]: <https://schiffradio.com/category/podcast/>
+
+{{< chat Peter-Schiff >}}
