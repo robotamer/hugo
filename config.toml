@@ -10,6 +10,8 @@ defaultContentLanguage = 'en'
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 paginate = "10" # Number of posts per page
 
+enableGitInfo = true
+
 [taxonomies]
   tag = 'tags'
   serie = 'series'

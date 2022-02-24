@@ -11,3 +11,5 @@ tags = []
 {{< netlify-contact >}}
 
 {{< social >}}
+
+{{< lastmod >}}

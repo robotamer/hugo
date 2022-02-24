@@ -10,7 +10,6 @@ tags = [ 'thoughts' ]
 groups = ['blog']
 +++
 
-
 A way to weigh whether you are on the "right side of history"
 -------------------------------------------------------------
 
@@ -54,3 +53,5 @@ We must allow people to make their own mistakes. Because even to adopt the princ
 There is a fine line between teaching and manipulating. Teaching must permit questioning, and must be a deep dive, otherwise you are indoctrinating not teaching.
 
 {{< chat right-side-history >}}
+
+{{< lastmod >}}
