@@ -1,0 +1,10 @@
+{{- if $.Page.Lastmod }}
+<!-- lastmod -->
+<div style="font-size: 0.5em; color: grey; text-align: right;">
+	Page Update:
+	<time datetime="{{ .Page.Lastmod }}" class="text-muted">
+		{{ $.Page.Lastmod.Format "January 02, 2006" }}
+	</time>
+</div>
+<!-- lastmod end -->
+{{- end }}
