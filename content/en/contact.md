@@ -8,8 +8,6 @@ groups = ["meta"]
 groups_weight = 50
 tags = []
 +++
-{{< netlify-contact >}}
-
 {{< social >}}
 
 {{< lastmod >}}
