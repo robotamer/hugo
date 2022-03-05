@@ -98,27 +98,12 @@ mathjax = false # Enable MathJax
 	identifier = 'linux'
     name = "Linux"
     pre = "<i class='fa fa-cubes'></i>"
-    #url = '/linux.html'
+    url = '/linux.html'
     weight = -160
-
-
-[[menu.main]]
-	identifier = 'php'
-    name = "PHP"
-    pre = "<i class='fa fa-cubes'></i>"
-    url = '/code/php.html'
-    weight = -170
 
 [[menu.main]]
 	identifier = 'go'
     name = "Go"
     url = '/code/go.html'
     weight = -180
-
-
-[[menu.linux]]
-    name = "bash"
-    url = '/linux/bash.html'
-    weight = -200
-
 
