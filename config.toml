@@ -29,6 +29,7 @@ enableGitInfo = true
 [params]
 mainSections = ['blog']
 mathjax = false # Enable MathJax
+# googleFontsLink = false
 
 [params.logo]
   image = "img/robotamer.gif" # Logo image. Path relative to "static"
