@@ -1,6 +1,7 @@
 ---
-title: Me and Linux
-description: Here I keep some notes for Linux.
+title: My Blog
+description: 
 ---
+Random toughts, enjoy.
 
-# Keep in mind, I am just a hobby programmer.
+_____________

@@ -9,8 +9,6 @@ groups_weight = 5
 tags = [ "meta" ]
 +++
 
-My little space on the net
---------------------------
 I started programming in the early 80's on a Commodore 64, and I still own my original box!
 
 After my Commodore 64, I owned an Amiga 500, and then an Amiga 1200  

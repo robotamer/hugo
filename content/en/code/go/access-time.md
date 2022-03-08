@@ -1,13 +1,18 @@
 +++
-title = "﻿File Access and Create Time"
-language = "en"
-date = "2015-04-25T14:02:07Z"
+title = "File Access and Create Time"
 description = "Gets the Modified, Create and Access time of a file"
+date = "2015-04-25T14:02:07Z"
 keywords = ["fileinfo", "file", "time"]
-linktitle = "﻿File Time"
+language = "en"
+linktitle = "File Time"
 groups = ["go"]
 +++
 
+Little update (like 5 years later).  
+Just tried this on Windows and no it doesn't work.  
+I get following error:
+
+	`undefined: syscall.Stat_t`
 
 This works on Linux.  
 Haven't tried on any other platform, please report if you do.
@@ -15,7 +20,6 @@ Haven't tried on any other platform, please report if you do.
 https://play.golang.org/p/vJFZ1o_qIp
 
 ```go
-
 package main
 
 import(

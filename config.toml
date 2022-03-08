@@ -16,6 +16,7 @@ enableGitInfo = true
   tag = 'tags'
   categories = 'categories'
   group = 'groups'
+  meta = "meta"
 
 [author] # Used in authorbox
   name = "TaMeR"
