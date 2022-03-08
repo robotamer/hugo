@@ -10,4 +10,6 @@ tags = []
 +++
 {{< social >}}
 
+My [PGP]("/pgp.html") key
+
 {{< lastmod >}}

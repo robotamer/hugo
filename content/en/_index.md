@@ -1,5 +1,6 @@
 ---
-title: 
-date: 2017-03-23
-publishdate: 2017-03-24
+title: Me and Linux
+description: Here I keep some notes for Linux.
 ---
+
+# Keep in mind, I am just a hobby programmer.
