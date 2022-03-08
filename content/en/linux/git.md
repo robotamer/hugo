@@ -10,53 +10,57 @@ tags = ["howto", "git"]
 [menu.linux]
 +++
 
-Git Setup
-=========
-
+### Git Setup
 #### Remote Server
 
 Go to your web root directory
-
-	cd /var/www/
+```bash
+cd /var/www/
+```
 
 identify your self to git
-
-	git config --global user.name "Dennis T Kaplan"
-
-	git config --global user.email "alias@example.com"
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "alias@example.com"
+```
 
 Create git
-
-	git init
+```bash
+git init
+```
 
 Create a live branch
-
-	git branch live
+```bash
+git branch live
+```
 
 Make the live branch active
-
-	git checkout live
+```bash
+git checkout live
+```
 
 #### Local
 
 Go to your working directory
-
-	cd /var/www/
+```bash
+cd /var/www/
+```
 
 identify your self to git
-
-	git config --global user.name "Dennis T Kaplan"
-
-	git config --global user.email "alias@example.com"
+```bash
+git config --global user.name "Dennis T Kaplan"
+git config --global user.email "alias@example.com"
+```
 
 Create git
-
-	git init
+```bash
+git init
+```
 
 create the ignore file
-
-	nano .gitignore
-
+```bash
+nano .gitignore
+```
 Place this in to your .gitignore file:
 
 	# Packages #
@@ -94,46 +98,53 @@ Place this in to your .gitignore file:
 	test*
 
 Add your files to git
-
-	git add .
+```bash
+git add .
+```
 
 Commit them
-
-	git commit -m 'init'
+```bash
+git commit -m 'init'
+```
 
 Add your remote git server
-
-	git remote add ssh://username@example.com/var/www/.git
+```bash
+git remote add ssh://username@example.com/var/www/.git
+```
 
 send your data to the remote server
-
-	git push
-
+```bash
+git push
+```
 #### Remote Server
 
 Checkout master branch so we can test the changes
-
-	git checkout master
+```bash
+git checkout master
+```
 
 see if it works and if it does go back to the live branch
-
-	git checkout live
+```bash
+git checkout live
+```
 
 pull in master to live
-
-	git merge master
-
+```bash
+git merge master
+```
 
 #### Stop tracking a file but keep the file:
-
-	git rm --cached filename
+```bash
+git rm --cached filename
+```
 
 #### Alias:  
 Following will create an alias for git add, commit and push
-
-	git config alias.acp '! acp() { git add . && git commit -m \"$1\" && git push ; } ; acp'  
+```bash
+git config alias.acp '! acp() { git add . && git commit -m \"$1\" && git push ; } ; acp'  
+```
 
 Use it like this:
-
-	git acp "your commit message"
-
+```bash
+git acp "your commit message"
+```
