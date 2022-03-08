@@ -1,10 +1,12 @@
 +++
-groups = ["meta"]
-date = "2015-01-28T19:54:59Z"
-groups_weight = 100
-linktitle = "© Copyright"
 title = "Copyright"
+date = "2015-01-28T19:54:59Z"
+linktitle = "© Copyright"
+groups = ["meta"]
+groups_weight = 100
 +++
+Following is the copyright on all code here on this blog as well as in the git repos.
+
 
 Copyright &copy; 2020 GoTamer. All rights reserved.
 ---------------------------------------------------------------
@@ -28,4 +30,4 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
+{{< lastmod >}}
