@@ -23,3 +23,5 @@ Use it like this:
 git acp "your commit message"
 ```
 Depending on your setup, you may also want to add `git pull` before you `git add`, but I am sure you can figure out how to do that. Isn't this something?
+
+{{< lastmod >}}

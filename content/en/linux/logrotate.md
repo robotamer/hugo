@@ -11,19 +11,15 @@ linktitle = "logrotate"
 +++
 
 Simple:
-
- - Change the MAXSIZE & LOGDIR 
+ - Create following file
+ - Change the MAXSIZE & LOGDIR (see file) 
  - Add a cron job
 
 
-Cron job weekly at 5am  
-```bash
-crontab: `0 5 * * 1 /var/www/log/logrotate.sh`
-```
-
 Create following file:
-
-     nano /var/www/log/logrotate.sh
+```bash
+nano /var/www/log/logrotate.sh
+```
 
 ```bash
 #!/bin/bash
@@ -51,3 +47,10 @@ for FILENAME in *.log; do
         fi
 done
 ```
+
+Now the Cron job; Here set to weekly at 5am  
+```bash
+crontab: `0 5 * * 1 /var/www/log/logrotate.sh`
+```
+
+{{< lastmod >}}
