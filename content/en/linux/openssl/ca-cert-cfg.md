@@ -1,9 +1,8 @@
 +++
 date = "2013-12-05T19:50:00Z"
 description = "Creating Self-Signed SSL Certificate for Multiple Domains"
-groups = ["linux"]
 groups_weight = 56
-keywords = ["linux", "ssl", "cert"]
+keywords = ["linux", "ssl", "cert", "opensssl"]
 linktitle = "CA Cert Cfg"
 tags = ["linux", "ssl"]
 title = "Self-Signed SSL Certificate with Config File"

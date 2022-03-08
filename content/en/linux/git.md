@@ -1,19 +1,14 @@
 +++
+title = "Git Howto"
 description = "Setting up and using Git"
 date = "2015-01-28T20:07:01Z"
+keywords = ["linux", "howto", "debian", "git"]
 groups = ["linux"]
 groups_weight = 10
-keywords = ["linux", "howto", "debian", "git"]
 linktitle = "Git"
-tags = ["linux", "howto", "git"]
-title = "Git Howto"
+tags = ["howto", "git"]
 [menu.linux]
 +++
-
-#### Stop tracking a file but keep the file:
-
-	git rm --cached filename
-
 
 Git Setup
 =========
@@ -128,4 +123,17 @@ pull in master to live
 
 	git merge master
 
+
+#### Stop tracking a file but keep the file:
+
+	git rm --cached filename
+
+#### Alias:  
+Following will create an alias for git add, commit and push
+
+	git config alias.acp '! acp() { git add . && git commit -m \"$1\" && git push ; } ; acp'  
+
+Use it like this:
+
+	git acp "your commit message"
 

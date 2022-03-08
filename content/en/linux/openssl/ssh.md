@@ -1,12 +1,11 @@
 +++
+title = "ssh authorization"
 description = "key-based authorization with SSH"
 date = "2015-01-28T19:54:59Z"
-groups = ["linux"]
-groups_weight = 8
 keywords = ["linux", "howto", "debian", "bash", "ssh"]
-tags = ["howto", "linux", "debian", "desktop", "server", "bash", "ssh"]
-title = "ssh authorization"
-
+tags = ["howto", "linux", "debian", "server", "ssh"]
+groups = ["linux", "opensssl" ]
+groups_weight = 8
 +++
 
 Create a public ssh key, if you haven’t one already. Look at ~/.ssh. If you see a file named id_dsa.pub then you obviously already have a public key. If not, simply create one.

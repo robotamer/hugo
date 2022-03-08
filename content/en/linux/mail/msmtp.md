@@ -1,12 +1,12 @@
 +++
+title = "msmtp"
 description = "Setting up msmtp as sendmail on debian linux (to send email)"
 date = "2015-01-28T22:38:12Z"
-groups = ["linux"]
-groups_weight = 40
 keywords = ["linux", "howto", "debian", "msmtp", "mail", "smtp", "sendmail"]
+tags = ["howto", "linux", "debian", "server", "mail", "smtp"]
+groups = ["linux", "mail"]
+groups_weight = 40
 linktitle = "msmtp"
-tags = ["howto", "linux", "debian", "desktop", "server", "mail", "smtp"]
-title = "msmtp"
 [menu.linux]
 parent =  "mail"
 +++

@@ -1,12 +1,12 @@
 +++
 date = "2013-12-02T19:50:00Z"
+title = "Log Rotate"
 description = "Simple log rotate bash script"
-groups = ["linux"]
+groups = ["linux", "bash"]
 groups_weight = 25
 keywords = ["linux", "bash", "logrotate"]
+tags = ["linux", "bash", "logrotate"]
 linktitle = "logrotate"
-tags = ["linux", "bash"]
-title = "Log Rotate"
 [menu.linux]
 +++
 
@@ -17,11 +17,15 @@ Simple:
 
 
 Cron job weekly at 5am  
+```bash
 crontab: `0 5 * * 1 /var/www/log/logrotate.sh`
+```
 
+Create following file:
+
+     nano /var/www/log/logrotate.sh
 
 ```bash
-
 #!/bin/bash
 
 MAXSIZE=1024
@@ -46,5 +50,4 @@ for FILENAME in *.log; do
                 chown tamer.www-data $NEWFILENAME.gz
         fi
 done
-
 ```

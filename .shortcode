@@ -3,3 +3,5 @@ hugo new my-first-post.md
 git status
 git add .
 git commit -m "update"
+
+git acp "message"

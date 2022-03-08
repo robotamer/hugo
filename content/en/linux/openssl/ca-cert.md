@@ -1,12 +1,12 @@
 +++
 date = "2013-12-04T19:50:00Z"
+title = "Self-Signed SSL Certificate"
 description = "How to create a self-signed SSL Certificate"
-groups = ["linux"]
-groups_weight = 55
 keywords = ["linux", "ssl", "cert"]
 linktitle = "CA Cert"
-tags = ["linux", "ssl"]
-title = "Self-Signed SSL Certificate"
+tags = ["linux", "ssl", "opensssl"]
+groups = ["linux", "opensssl" ]
+groups_weight = 55
 
 +++
 

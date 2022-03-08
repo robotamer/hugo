@@ -1,16 +1,15 @@
 +++
+title = "Mail Server Fingerprint"
 description = "Fetching the SSL Cert from a remote mail server, and extracting the SHA1 Fingerprint."
 date = "2015-01-28T19:54:59Z"
-groups = ["linux"]
-groups_weight = 20
 keywords = ["linux", "mail", "smtp", "howto", "server", "fingerprint", "SHA1", "ssl", "cert"]
-linktitle = "Fingerprint"
 tags = ["howto", "mail", "smtp", "linux"]
-title = "Mail Server Fingerprint"
-
+linktitle = "Fingerprint"
+groups = ["linux", "opensssl" ]
+groups_weight = 20
 +++
 
-This is useful for let's say when you need the fingerprint to identify via TLS
+This is useful when you need the fingerprint to identify via TLS
 
 Get the raw certificate:
 
@@ -21,5 +20,4 @@ Copy and paste the scribble from -----BEGIN CERTIFICATE----- to -----END CERTIFI
 Generate the SHA1 fingerprint by issuing following command:
 
 	openssl x509 -in cert.pem -sha1 -noout -fingerprint
-
 

@@ -1,2 +1,2 @@
 #!/bin/bash
-hugo server --uglyUrls=true --source=/home/tamer/www/robotamer --watch=false
+hugo server --uglyUrls=true --source=./ --watch=false

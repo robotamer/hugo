@@ -1,7 +1,7 @@
 +++
 date = "2011-11-22T03:54:53.00Z"
 description = "How to search the Linux bash history"
-groups = ["linux"]
+groups = ["linux", "bash"]
 keywords = ["history", "linux", "bash"]
 language = "en"
 linktitle = "History"
