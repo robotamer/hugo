@@ -14,12 +14,8 @@ enableGitInfo = true
 
 [taxonomies]
   tag = 'tags'
-  serie = 'series'
   categories = 'categories'
   group = 'groups'
-  post = 'posts'
-  page = 'pages'
-  blog = 'blog'
 
 [author] # Used in authorbox
   name = "TaMeR"
