@@ -1,6 +1,6 @@
----
-title: 'Blog'
----
++++
+title = 'Blog'
++++
 Random toughts, enjoy.
 
 _____________
