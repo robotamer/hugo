@@ -1,12 +1,11 @@
 +++
-Author = "David T Freeman"
+title = "Bilgin"
+author = "David T Freeman"
 date = "2014-12-27T19:50:00Z"
-groups = ["blog"]
 keywords = ["Öğrendikçe", "oku"]
 language = "tr"
 tags = ["alıntı"]
-title = "Bilgin"
-
+groups = ["blog"]
 +++
 
 #### TR  

@@ -1,12 +1,11 @@
 +++
 date = "2014-12-21T19:50:00Z"
 description = "Zihinsel kölelikten Özgürlüye"
-groups = ["blog"]
 keywords = ["Özgür", "Özgürlük", "Zihinsel kölelik"]
 language = "tr"
 title = "Özgürlük"
 tags = [ 'politik', 'özgürlük' ]
-
+groups = ["blog"]
 +++
 
 Öğretileni sorgulamadan kabul eden, zihinsel köle olur.  
