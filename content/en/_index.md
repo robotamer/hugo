@@ -1,6 +1,6 @@
 ---
-title: My Blog
-description: 
+title: Blog
+description: Random toughts
 ---
 Random toughts, enjoy.
 
