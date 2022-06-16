@@ -11,8 +11,6 @@ tags = ["politik", "özgürlük"]
 groups = ["blog"]
 categories = ["blog"]
 +++
-
-
 Öğretileni sorgulamadan kabul eden, zihinsel köle olur.  
 
 Zihinsel kölelikten anca kendi kendini azat edebilirsin.  

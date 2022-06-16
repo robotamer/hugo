@@ -6,13 +6,11 @@ linktitle = ""
 description = "Avrupadaki Müslüman savaşının geleceği"
 keywords = ["Paris", "Fransa", "karikatüristler", "İslam", "İslamcılar"]
 language = "tr"
-author = ""
+author = "TaMeR"
 tags = ["politik", "özgürlük"]
 groups = ["blog"]
 categories = ["blog"]
 +++
-
-
 Paris'te İslamcılar tarafından, alaycı karikatüristlerin, ve Şabat yemeği sırasındaki Yahudilerin cinayetleri dünyayi, özelikle Fransa ve İsraili ayağa kaldırdı.
 
 Bunu her gazetete, her haber ajansı konu yaptı. Olaylar nereden, nereye geldi, niçin geldi diye kendilerine göre yorumlar yaptı.

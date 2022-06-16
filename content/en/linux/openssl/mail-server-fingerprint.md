@@ -7,7 +7,7 @@ description = "Fetching the SSL Cert from a remote mail server, and extracting t
 keywords = ["linux", "mail", "smtp", "howto", "server", "fingerprint", "SHA1", "ssl", "cert"]
 language = "en"
 author = ""
-tags = ["howto", "mail", "smtp", "linux"]
+tags = ["howto", "mail", "smtp", "linux", "ssl"]
 groups = ["linux", "opensssl"]
 categories = ["linux", "openssl"]
 +++

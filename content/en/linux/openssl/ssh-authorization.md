@@ -4,14 +4,13 @@ modified = ""
 title = "ssh authorization"
 linktitle = ""
 description = "key-based authorization with SSH"
-keywords = ["linux", "howto", "debian", "bash", "ssh"]
+keywords = ["linux", "howto", "debian", "bash", "ssh", "ssl"]
 language = "en"
 author = ""
-tags = ["howto", "linux", "debian", "server", "ssh"]
+tags = ["howto", "linux", "debian", "server", "ssh", "ssl"]
 groups = ["linux", "opensssl"]
 categories = ["linux", "openssl"]
 +++
-
 
 Create a public ssh key, if you haven’t one already. Look at ~/.ssh. If you see a file named id_dsa.pub then you obviously already have a public key. If not, simply create one.
 

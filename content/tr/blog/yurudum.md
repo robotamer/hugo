@@ -5,12 +5,11 @@ title = "Yürüdüm"
 linktitle = ""
 description = "Ben Yürüdüm, Ama"
 language = "tr"
-author = ""
+author = "TaMeR"
 tags = ["ilham"]
 groups = ["blog"]
 categories = ["blog"]
 +++
-
 
 Ben Mutlulukla yürüdüm;  
 Tüm yol gevezelikle geçti;  

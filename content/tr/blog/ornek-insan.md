@@ -3,7 +3,7 @@ date = "2015-01-26T19:50:00Z"
 modified = ""
 title = "Örnek İnsan"
 linktitle = ""
-description = ""
+description = "Dünyanın üst yüzde biri ..."
 keywords = ["Dünyanın üst yüzde biri", "Allah tektir", "ona denk yoktur", "Örnek İnsan"]
 language = "tr"
 author = "RoboTamer"
@@ -11,8 +11,6 @@ tags = ["özgürlük"]
 groups = ["blog"]
 categories = ["blog"]
 +++
-
-
 “Dünyanın üst yüzde biri” diye aradığınız zaman İnternette, karşınıza çıkacak konunun dünyanın "en zengin insanları" olduğunu fark edersiniz.  
  
 Dünyanın üst yüzde biri onlar değil bana göre, nede Allah'ın gözünde onların olduğunu düşünmüyorum.  

@@ -4,11 +4,11 @@ modified = ""
 title = "Self-Signed SSL Certificate"
 linktitle = ""
 description = "How to create a self-signed SSL Certificate"
-keywords = ["linux", "ssl", "cert"]
+keywords = ["linux", "ssl", "cert", "openssl"]
 language = "en"
 author = ""
-tags = ["linux", "ssl", "opensssl"]
-groups = ["linux", "opensssl"]
+tags = ["linux", "ssl"]
+groups = ["linux", "openssl"]
 categories = ["linux", "openssl"]
 +++
 

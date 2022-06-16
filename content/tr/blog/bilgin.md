@@ -3,7 +3,7 @@ date = "2014-12-27T19:50:00Z"
 modified = ""
 title = "Bilgin"
 linktitle = ""
-description = ""
+description = "Öğrendikçe"
 keywords = ["Öğrendikçe", "oku"]
 language = "tr"
 author = "David T Freeman"
@@ -14,7 +14,7 @@ categories = ["blog"]
 
 
 #### TR  
-> Öğrendikçe, ne kadar az bildiğini fark edersin,  
+> Öğrendikçe, ne kadar az bildiğini fark edersin;  
 > Ne kadar az bilirsen, o kadar çok bildiğini zannedersin.  
 
 #### EN  
