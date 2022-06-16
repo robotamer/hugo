@@ -1,14 +1,17 @@
 +++
-title = "Git Alias"
-description = "Setting up Git Alias"
 date = "2015-01-28T20:07:01Z"
+modified = ""
+title = "Git Alias"
+linktitle = ""
+description = "Setting up Git Alias"
 keywords = ["linux", "howto", "debian", "git"]
-groups = ["linux"]
-groups_weight = 10
-linktitle = "Git"
+language = "en"
+author = ""
 tags = ["howto", "git"]
-[menu.linux]
+groups = ["linux", "git"]
+categories = ["linux"]
 +++
+
 
 #### Git Alias:  
 

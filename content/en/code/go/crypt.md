@@ -1,14 +1,17 @@
 +++
-description = "A light weight, fast Data Encryption and Decryption package written in pure Go"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "go"]
+modified = ""
+title = "Crypt"
+linktitle = ""
+description = "A light weight, fast Data Encryption and Decryption package written in pure Go"
 keywords = ["golang", "go", "crypt", "encryption", "decryption"]
 language = "en"
-linktitle = "Crypt"
+author = ""
 tags = ["gotamer"]
-title = "Crypt"
-
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 This will not pass Bank or Spy cryptographic requirements in todays world.  
 I do not make claims about its security, please see the license file for details.  

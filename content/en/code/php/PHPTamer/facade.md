@@ -1,14 +1,17 @@
 +++
-description = "Component interdependency via the facade programming pattern"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "php"]
-groups_weight = 30
-keywords = ["Facade", "php", "phptamer"]
-linktitle = "Facade"
-tags = ["phptamer"]
+modified = ""
 title = "Facade"
-
+linktitle = ""
+description = "Component interdependency via the facade programming pattern"
+keywords = ["Facade", "php", "phptamer"]
+language = "en"
+author = ""
+tags = ["phptamer"]
+groups = ["code", "php", "PHPTamer"]
+categories = ["code", "php", "PHPTamer"]
 +++
+
 
 Facade's main focus is a to be a component dependency substitution system, 
 and will achieve component interdependency via the facade programming pattern.

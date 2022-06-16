@@ -1,14 +1,17 @@
 +++
-description = "A simple golang database, JGDB stands for Json Git Database"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "go", "gotamer"]
+modified = ""
+title = "jgdb"
+linktitle = ""
+description = "A simple golang database, JGDB stands for Json Git Database"
 keywords = ["code", "go", "config", "configuratin"]
 language = "en"
-linktitle = "jgdb"
+author = ""
 tags = ["code", "go"]
-title = "jgdb"
-
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 About the implementation:
 -------------------------

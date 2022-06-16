@@ -1,14 +1,17 @@
 +++
-description = "Network ping for go"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "go"]
+modified = ""
+title = "Ping"
+linktitle = ""
+description = "Network ping for go"
 keywords = ["golang"]
 language = "en"
-linktitle = "Ping"
+author = ""
 tags = ["gotamer"]
-title = "Ping"
-
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 There are two ways to ping 
  * go internal ping 

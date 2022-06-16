@@ -1,13 +1,17 @@
 +++
 date = "2012-07-13T20:45:12.00Z"
+modified = ""
+title = "Read Folder"
+linktitle = ""
 description = "Get php files in dir with recursive lambda callback function"
-groups = ["php"]
 keywords = ["php", "recursive", "lambda", "callback", "function"]
 language = "en"
+author = ""
 tags = ["php"]
-title = "Read Folder"
-
+groups = ["code", "php"]
+categories = ["code", "php"]
 +++
+
 
 This is a *Lambda* function also called anonymous function within a regular function that scans a given directory and it's sub directories returning an array of all php files within.
 

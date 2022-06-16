@@ -1,14 +1,17 @@
 +++
-date = '2021-11-24'
-title = 'Bidens Democracy Summit'
-description = ''
-keywords = [ 'thoughts', 'liberty' ]
+date = "2021-11-24"
+modified = ""
+title = "Bidens Democracy Summit"
+linktitle = ""
+description = ""
+keywords = ["thoughts", "liberty"]
 language = "en"
-thumbnail = ''
-categories = [ '' ]
-tags = [ 'thoughts', 'liberty']
-groups = [ 'blog' ]
+author = ""
+tags = ["thoughts", "liberty"]
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 There is an interesting article about [The Summit for Democracy](https://www.state.gov/summit-for-democracy) titled [Biden Invites Taiwan to Democracy Summit Alongside 110 Countries](https://english.aawsat.com/node/3321941).
 

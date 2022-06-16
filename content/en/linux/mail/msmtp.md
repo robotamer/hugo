@@ -1,15 +1,17 @@
 +++
-title = "msmtp"
-description = "Setting up msmtp as sendmail on debian linux (to send email)"
 date = "2015-01-28T22:38:12Z"
+modified = ""
+title = "msmtp"
+linktitle = ""
+description = "Setting up msmtp as sendmail on debian linux (to send email)"
 keywords = ["linux", "howto", "debian", "msmtp", "mail", "smtp", "sendmail"]
+language = "en"
+author = ""
 tags = ["howto", "linux", "debian", "server", "mail", "smtp"]
 groups = ["linux", "mail"]
-groups_weight = 40
-linktitle = "msmtp"
-[menu.linux]
-parent =  "mail"
+categories = ["linux", "mail"]
 +++
+
 
 # /etc/msmtprc
 

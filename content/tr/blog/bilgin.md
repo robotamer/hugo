@@ -1,12 +1,17 @@
 +++
-title = "Bilgin"
-author = "David T Freeman"
 date = "2014-12-27T19:50:00Z"
+modified = ""
+title = "Bilgin"
+linktitle = ""
+description = ""
 keywords = ["Öğrendikçe", "oku"]
 language = "tr"
+author = "David T Freeman"
 tags = ["alıntı"]
 groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 #### TR  
 > Öğrendikçe, ne kadar az bildiğini fark edersin,  

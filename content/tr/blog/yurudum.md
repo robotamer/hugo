@@ -1,13 +1,16 @@
 +++
 date = "2014-11-16T19:50:00Z"
-description = "Ben Yürüdüm, Ama"
-groups = ["blog"]
-keywords = []
-language = "tr"
+modified = ""
 title = "Yürüdüm"
-tags = [ 'ilham' ]
-
+linktitle = ""
+description = "Ben Yürüdüm, Ama"
+language = "tr"
+author = ""
+tags = ["ilham"]
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 Ben Mutlulukla yürüdüm;  
 Tüm yol gevezelikle geçti;  

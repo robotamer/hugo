@@ -1,14 +1,17 @@
 +++
-description = "Cfg is a json configuration package for Go"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "go", "gotamer"]
+modified = ""
+title = "Cfg"
+linktitle = ""
+description = "Cfg is a json configuration package for Go"
 keywords = ["code", "go", "config", "configuratin"]
 language = "en"
-linktitle = "Cfg"
+author = ""
 tags = ["code", "go"]
-title = "Cfg"
-
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 ### Features:
 

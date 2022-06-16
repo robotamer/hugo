@@ -1,13 +1,16 @@
 +++
+date = "2015-01-28T19:54:59Z"
+modified = ""
 title = "About me"
+linktitle = ""
 description = "My little space on the net"
 keywords = ["robotamer", "gotamer", "phptamer", "tamer"]
-date = "2015-01-28T19:54:59Z"
-linktitle = "About"
-groups = ["meta"]
-groups_weight = 5
-tags = [ "meta" ]
+language = "en"
+author = ""
+tags = ["meta"]
+categories = []
 +++
+
 
 I started programming in the early 80's on a Commodore 64, and I still own my original box!
 

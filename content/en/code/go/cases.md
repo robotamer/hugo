@@ -1,12 +1,16 @@
 +++
-description = "Case Manipulation in Go"
 date = "2015-01-28T19:54:59Z"
-groups = ["go", "gotamer"]
+modified = ""
+title = "Cases"
+linktitle = ""
+description = "Case Manipulation in Go"
 keywords = ["code", "go"]
 language = "en"
-title = "Cases"
-
+author = ""
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 Provides conversion and case manipulation, such as upper case word, camel case, dash, underscore etc.
 

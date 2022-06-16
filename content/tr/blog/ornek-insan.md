@@ -1,13 +1,17 @@
 +++
-Author = "RoboTamer"
 date = "2015-01-26T19:50:00Z"
-groups = ["blog"]
-keywords = ["Dünyanın üst yüzde biri", "Allah tektir, ona denk yoktur", "Örnek İnsan"]
-language = "tr"
+modified = ""
 title = "Örnek İnsan"
-tags = [ 'özgürlük' ]
-
+linktitle = ""
+description = ""
+keywords = ["Dünyanın üst yüzde biri", "Allah tektir", "ona denk yoktur", "Örnek İnsan"]
+language = "tr"
+author = "RoboTamer"
+tags = ["özgürlük"]
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 “Dünyanın üst yüzde biri” diye aradığınız zaman İnternette, karşınıza çıkacak konunun dünyanın "en zengin insanları" olduğunu fark edersiniz.  
  

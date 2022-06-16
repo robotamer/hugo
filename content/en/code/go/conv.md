@@ -1,12 +1,15 @@
 +++
-description = ""
 date = "2015-01-28T19:54:59Z"
-groups = ["gotamer"]
-keywords = []
-language = "en"
+modified = ""
 title = "Conv"
-
+linktitle = ""
+description = ""
+language = "en"
+author = ""
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 Don't use this!!!
 =================

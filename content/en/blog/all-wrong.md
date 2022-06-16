@@ -1,12 +1,17 @@
 +++
 date = "2014-12-28T13:04:35+02:00"
+modified = ""
+title = "All wrong"
+linktitle = ""
 description = "In responce to Dalai Lama's post"
-groups = ["blog"]
 keywords = ["thoughts"]
 language = "en"
+author = ""
 tags = ["thoughts"]
-title = "All wrong"
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 > Once you develop confidence in your own ability, you’ll be able to make a real contribution to creating a better world. Self-confidence is very important. Not in the sense of blind pride, but as a realistic awareness of what you can do. As human beings we can transform ourselves by our good qualities and reducing our faults. Our intelligence enables us to judge what is good from what is harmful.  
 > --Dalai Lama

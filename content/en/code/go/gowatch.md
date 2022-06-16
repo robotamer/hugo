@@ -1,14 +1,17 @@
 +++
-description = "It watches your dev folder for modified files, and if a file changes it restarts the process"
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "go"]
+modified = ""
+title = "GoWatch"
+linktitle = ""
+description = "It watches your dev folder for modified files, and if a file changes it restarts the process"
 keywords = ["golang", "go", "crypt", "encryption", "decryption"]
 language = "en"
-linktitle = "GoWatch"
+author = ""
 tags = ["gotamer"]
-title = "GoWatch"
-
+groups = ["code", "go"]
+categories = ["code", "go"]
 +++
+
 
 # GoTamer gowatch is a fork of bitbucket.org/jzs/buildwatch with some enhancements.  
 

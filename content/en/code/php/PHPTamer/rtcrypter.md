@@ -1,14 +1,17 @@
 +++
-description = "RTCrypter allows for encryption and decryption on the fly using a simple method."
 date = "2015-01-28T19:54:59Z"
-groups = ["code", "php"]
-groups_weight = 20
-keywords = ["Crypter", "php", "phptamer"]
-linktitle = "Crypter"
-tags = ["phptamer"]
+modified = ""
 title = "RTCrypter"
-
+linktitle = ""
+description = "RTCrypter allows for encryption and decryption on the fly using a simple method."
+keywords = ["Crypter", "php", "phptamer"]
+language = "en"
+author = ""
+tags = ["phptamer"]
+groups = ["code", "php", "PHPTamer"]
+categories = ["code", "php", "PHPTamer"]
 +++
+
 
 RTCrypter does not require mcrypt, mhash or any other PHP extension, it uses only PHP.
 

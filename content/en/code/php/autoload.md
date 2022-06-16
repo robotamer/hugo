@@ -1,12 +1,16 @@
 +++
 date = "2012-07-01T07:37:41.00Z"
-description = "SplClassLoader Implementation"
-groups = ["php"]
-language = "en"
-tags = ["php", "zend", "HowTo"]
+modified = ""
 title = "Autoload"
-
+linktitle = ""
+description = "SplClassLoader Implementation"
+language = "en"
+author = ""
+tags = ["php", "zend", "HowTo"]
+groups = ["code", "php"]
+categories = ["code", "php"]
 +++
+
 
 I have been looking around for some good examples to use the new PHP autoloader interoperability standard according to the PHP Standards Recommendation #0 (PSR-0).
 

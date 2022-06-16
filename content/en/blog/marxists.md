@@ -1,13 +1,17 @@
 +++
 date = "2020-07-13"
+modified = ""
 title = "Marxists"
+linktitle = ""
 description = "Are you are angry about the Marxist movement of the left?"
-keywords = ["thoughts", 'Thematic Research']
-thumbnail = ""
-groups = ["blog"]
+keywords = ["thoughts", "Thematic Research"]
 language = "en"
-tags = ["thoughts", 'Thematic Research']
+author = ""
+tags = ["thoughts", "Thematic Research"]
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 
 Hey you thinker, here are some thoughts for you to ponder.

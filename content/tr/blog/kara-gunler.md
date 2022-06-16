@@ -1,14 +1,17 @@
 +++
 date = "2015-01-19T13:49:22+02:00"
+modified = ""
+title = "Kara Günler"
+linktitle = ""
 description = "Avrupadaki Müslüman savaşının geleceği"
-groups = ["blog"]
 keywords = ["Paris", "Fransa", "karikatüristler", "İslam", "İslamcılar"]
 language = "tr"
-linktitle = "Kara Günler"
-title = "Kara Günler"
-tags = [ 'politik', 'özgürlük' ]
-
+author = ""
+tags = ["politik", "özgürlük"]
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 Paris'te İslamcılar tarafından, alaycı karikatüristlerin, ve Şabat yemeği sırasındaki Yahudilerin cinayetleri dünyayi, özelikle Fransa ve İsraili ayağa kaldırdı.
 

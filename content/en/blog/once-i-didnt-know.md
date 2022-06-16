@@ -1,13 +1,17 @@
 +++
 date = "2014-11-21T18:04:35+02:00"
+modified = ""
+title = "Once I didn't know"
+linktitle = ""
 description = "There was a time way back when I just plain didn't know."
-groups = ["blog"]
 keywords = ["thoughts"]
 language = "en"
+author = ""
 tags = ["thoughts"]
-title = "Once I didn't know"
-
+groups = ["blog"]
+categories = ["blog"]
 +++
+
 
 There was a time way back when I just plain didn't know.  
 Then as I found out one by one. At first I was justifying then who knows at which point it turned in to rationalizing.  

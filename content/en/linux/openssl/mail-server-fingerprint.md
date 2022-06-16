@@ -1,13 +1,17 @@
 +++
-title = "Mail Server Fingerprint"
-description = "Fetching the SSL Cert from a remote mail server, and extracting the SHA1 Fingerprint."
 date = "2015-01-28T19:54:59Z"
+modified = ""
+title = "Mail Server Fingerprint"
+linktitle = ""
+description = "Fetching the SSL Cert from a remote mail server, and extracting the SHA1 Fingerprint."
 keywords = ["linux", "mail", "smtp", "howto", "server", "fingerprint", "SHA1", "ssl", "cert"]
+language = "en"
+author = ""
 tags = ["howto", "mail", "smtp", "linux"]
-linktitle = "Fingerprint"
-groups = ["linux", "opensssl" ]
-groups_weight = 20
+groups = ["linux", "opensssl"]
+categories = ["linux", "openssl"]
 +++
+
 
 This is useful when you need the fingerprint to identify via TLS
 

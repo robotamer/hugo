@@ -1,13 +1,16 @@
 +++
-title = "PGP"
-description = "My PGP key"
-keywords = ["robotamer", "gotamer", "phptamer", "tamer", "pgp" ]
 date = "2015-01-28T19:54:59Z"
-linktitle = "pgp"
-groups = ["meta"]
-groups_weight = 5
-tags = [ "pgp" ]
+modified = ""
+title = "PGP"
+linktitle = ""
+description = "My PGP key"
+keywords = ["robotamer", "gotamer", "phptamer", "tamer", "pgp"]
+language = "en"
+author = ""
+tags = ["pgp"]
+categories = []
 +++
+
 
 PGP key:
 --------
