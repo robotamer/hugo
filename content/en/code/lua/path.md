@@ -12,6 +12,8 @@ groups = ["code", "lua"]
 categories = ["code", "lua"]
 +++
 
+[Git Path](https://github.com/luatamer/path)
+
 Currently works only on NIX (Linux, BSD, UNIX etc.)
 Maybe it will work on Mac since Mac is based on BSD, I have no way of testing.
 It will for sure not work on Windows currently.
