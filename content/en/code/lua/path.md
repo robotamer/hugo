@@ -1,8 +1,7 @@
 +++
+title = "Lua Path"
 date = "2022-06-19T03:43:44+03:00"
 modified = ""
-title = "Lua Path"
-linktitle = "lua-path"
 description = "os path, such as is.dir - can.write - path.appened"
 keywords = ["lua", "os", "path", "isdir", "isfile", "canwrite"]
 language = "en"
