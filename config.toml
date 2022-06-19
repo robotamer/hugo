@@ -41,7 +41,7 @@ mathjax = false # Enable MathJax
   # Enable widgets in given order
   # widgets = ["search", "languages", "recent", "categories", "taglist", "social"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  widgets = ["ddg-search", "languages", "recent", "categories", "taglist", "social"]
+  widgets = ["search", "languages", "recent", "categories", "taglist", "social"]
 
 [params.widgets.social]
   telegram = 'robotamer'
@@ -79,7 +79,7 @@ mathjax = false # Enable MathJax
   title = 'blog section'
   url = '/blog.html'
   weight = -210
-  
+
 [[menu.main]]
 	identifier = 'contact'
     name = 'Contact'
