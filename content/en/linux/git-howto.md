@@ -1,10 +1,10 @@
 +++
 date = "2015-01-28T20:07:01Z"
-modified = ""
+modified = "2025-04-04"
 title = "Git Howto"
 linktitle = ""
 description = "Setting up and using Git"
-keywords = ["linux", "howto", "debian", "git"]
+keywords = ["linux", "howto", "git"]
 language = "en"
 author = ""
 tags = ["howto", "git"]
@@ -14,6 +14,10 @@ categories = ["linux"]
 
 
 ### Git Setup
+
+There is now a manual in the git book that is better.  
+[4.4 Git on the Server - Setting Up the Server](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
+
 #### Remote Server
 
 Go to your web root directory
