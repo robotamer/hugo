@@ -76,8 +76,7 @@ docker run -d --restart=unless-stopped --network host \
 - Choice 2: Bind to `0.0.0.0` except change port 80 to 8080. 
 
 ```sh
-docker run -d --restart=unless-stopped \ 
-   --hostname=${CIT_DOMAIN_NAME}  \
+docker run -d --restart=unless-stopped --hostname=${CIT_DOMAIN_NAME}  \
    --volume=/usr/local/citadel:/citadel-data \
    --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \
    --volume=/usr/local/webcit/static.local:/usr/local/webcit/static.local \
@@ -136,6 +135,21 @@ docker exec -it citadel sh
 ls -alh
 exit
 ```
+
+List all running containers
+---------------------------
+```
+docker container ls
+OR
+docker ps
+``` 
+
+List the content of a folder in the container
+---------------------------------------------
+```
+docker exec -it citadel ls -al /usr/local/webcit/static
+```
+
 
 Other helpful commands you can try to understand what goes on
 -----------------
