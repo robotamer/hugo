@@ -1,7 +1,7 @@
 +++
 date = "2025-04-04"
 modified = ""
-title = "Lighttpd Webserver"
+title = "Lighttpd Webserver for Citadel"
 linktitle = ""
 description = "Setting up Lighttpd Webserver for Citadel"
 keywords = ["lighttpd", "howto", "webcit", "citadel"]
@@ -12,16 +12,16 @@ groups = ["linux", "citadel"]
 categories = ["linux", "citadel"]
 +++
 
-
-Lighttpd webserver
-=================
+Lighttpd Webserver for Citadel
+==============================
 
 Lighttpd is a free and open-source web server, designed for speed, efficiency, and flexibility.
 
+This tutorial is designed to work hand in glove with our [citadel docker](/linux/citadel/docker) installation tutorial. 
 We will install this on Void Linux but besides the installation, everything should work on any NIX.
 
 Void Linux Installation
-------------
+-----------------------
 ```sh
 xbps-install -Suv
 xbps-install -S lighttpd
