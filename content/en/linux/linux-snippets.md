@@ -28,6 +28,10 @@ categories = ["linux"]
 #### Find and replace
 	find . -type f -name "*.php" -exec sed -i 's/numRows/rowCount/g' {} \;
 
+#### How much space is used by folder
+	$ du -hs ~/.local/share/Trash
+	96M	/home/tamer/.local/share/Trash
+
 #### running as background process
 	nohup scp <params> & > nohup.out 2 > &1
 	nohup scp -r -p root@www.example.com:/var/www/ /var/www/ & >nohup.out 2>&1

@@ -40,7 +40,7 @@ export CIT_DOMAIN_NAME=mail.example.net
 export CIT_IP_ADDRESS=203.0.113.1
 ```
 
-```
+```sh
 mkdir -p /usr/local/citadel
 mkdir -p /usr/local/webcit/.well-known
 echo "127.0.1.1   $CIT_DOMAIN_NAME   $CIT_HOST_NAME">>/etc/hosts
@@ -104,33 +104,38 @@ ________________
 
 Stop
 ----
-    docker stop citadel
-
+```sh
+docker stop citadel
+```
 Start
 -----
-    docker start citadel
-
+```sh
+docker start citadel
+```
 Restart
 -------
-    docker restart citadel
-
+```sh
+docker restart citadel
+```
 Upgrade
 -------
-    docker stop citadel
-    docker rm citadel
-    docker pull citadeldotorg/citadel
-    -- Create (see above))
+```sh
+docker stop citadel
+docker rm citadel
+docker pull citadeldotorg/citadel
+-- Create (see above))
+```
 
 Attach will attach to ctdlvisor
 -----------------
-```
+```sh
 # /usr/local/bin/ctdlvisor
 docker attach citadel
 ```
 
 Enter the container as root
 -----------------
-```
+```sh
 docker exec -it citadel sh
 ls -alh
 exit
@@ -138,7 +143,7 @@ exit
 
 List all running containers
 ---------------------------
-```
+```sh
 docker container ls
 OR
 docker ps
@@ -146,14 +151,14 @@ docker ps
 
 List the content of a folder in the container
 ---------------------------------------------
-```
+```sh
 docker exec -it citadel ls -al /usr/local/webcit/static
 ```
 
 
 Other helpful commands you can try to understand what goes on
 -----------------
-```
+```sh
 docker --help
 docker exec -it citadel  cat /etc/hosts
 docker container ls
