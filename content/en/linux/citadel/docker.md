@@ -23,12 +23,16 @@ Replace with your own.
 
 Pre-Install
 ----------
-Before you start set your DNS to point your domain to the servers IP. 
+- Before you start set your DNS to point your domain to the servers IP. 
 How to do that is out of this manuals scope.
+
+- Make sure docker is installed already.
+Installation of docker is a prerequisite that is out of scope of this documentation. 
+
 ___
 Installation
 ------------
-Next we will set some variables, *replace* with your domain and IP address then execute following in your bash shell. Following will not work in a fish shell, you will have to use the set command.
+Next we will set some variables, *replace* with your domain and IP address then execute following in your servers shell.
 
 ```sh
 export CIT_HOST_NAME=mail
