@@ -12,27 +12,27 @@ groups = ["linux", "mail"]
 categories = ["linux", "mail"]
 +++
 
-
 # /etc/msmtprc
 
-	defaults
-	maildomain      example.net
-	syslog          LOG_MAIL
-	aliases         /etc/aliases
+```sh
+defaults
+maildomain      example.net
+syslog          LOG_MAIL
+aliases         /etc/aliases
 
-
-	account         default
-	host            mail.example.net
-	port            587
-	from            srv7@example.net
-	auth            on
-	user            user@example.net
-	password        ********
-	tls             on
-	tls_starttls    on
-	#tls_certcheck   off
-	tls_fingerprint DB:A0:2A:07:00:F9:E3:23:7D:07:E7:52:3C:95:9D:E6:7E:12:54:3F
-
+account         default
+host            mail.example.net
+port            587
+from            srv7@example.net
+auth            on
+user            user@example.net
+password        ********
+tls             on
+tls_starttls    on
+#tls_certcheck   off
+tls_fingerprint DB:A0:2A:07:00:F9:E3:23:7D:07:E7:52:3C:95:9D:E6:7E:12:54:3F
+```
+You may need a manual for a [tls fingerprint](/linux/openssl/mail-server-fingerprint)
 
 Your alias file
 
