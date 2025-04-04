@@ -9,7 +9,7 @@ language = "en"
 author = "TaMeR"
 tags = ["docker", "howto", "webcit", "citadel"]
 groups = ["linux", "citadel"]
-categories = ["linux"]
+categories = ["linux", "citadel"]
 +++
 
 
