@@ -63,7 +63,10 @@ Create Docker
 - Choice 1: Bind to IP 0.0.0.0 
 
 ```sh
-docker run -d --restart=unless-stopped --network host --volume=/usr/local/citadel:/citadel-data --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known --name=citadel citadeldotorg/citadel
+docker run -d --restart=unless-stopped --network host \
+    --volume=/usr/local/citadel:/citadel-data \
+    --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \ 
+    --name=citadel citadeldotorg/citadel
 ```
 
 - Choice 2: Bind to `0.0.0.0` except change port 80 to 8080. 
@@ -144,6 +147,6 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' citadel
 docker inspect --format '{{ .Config.Hostname  }}' citadel
 ```
 
-Citadel Code
+Citadel Repo
 ------------
 https://code.citadel.org
