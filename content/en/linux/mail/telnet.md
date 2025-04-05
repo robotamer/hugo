@@ -12,33 +12,35 @@ groups = ["linux", "mail", "telnet, "openssl"]
 categories = ["linux", "mail"]
 +++
 
-Telnet to a server
-=======================
-
+Lets first create a variable, so you can just copy/paste the code.  
+Replace *mail.example.net* with the your telnet destination domain name.
 
 ```sh
 export CIT_DOMAIN_NAME=mail.example.net
 ```
 
+- c = Client, this is what you will enter
+- s = Server, response we receive.
+
 ```sh
-telnet $CIT_DOMAIN_NAME 587
-Trying 107.189.21.115...
-Connected to mail.example.net.
-Escape character is '^]'.
-220 mail.example.net ESMTP Citadel server ready.
-ehlo tamer
-250-Hello tamer
-250-HELP
-250-SIZE 10485760
-250-STARTTLS
-250-AUTH LOGIN PLAIN
-250-AUTH=LOGIN PLAIN
-250 8BITMIME
-starttls
-554 TLS not supported here
-quit
-221 Goodbye...
-Connection closed by foreign host.
+c: telnet $CIT_DOMAIN_NAME 587
+s: Trying 107.189.21.115...
+s: Connected to mail.example.net.
+s: Escape character is '^]'.
+s: 220 mail.example.net ESMTP Citadel server ready.
+c: EHLO $USER
+s: 250-Hello "your user name"
+s: 250-HELP
+s: 250-SIZE 10485760
+s: 250-STARTTLS
+s: 250-AUTH LOGIN PLAIN
+s: 250-AUTH=LOGIN PLAIN
+s: 250 8BITMIME
+c: STARTTLS
+s: 554 TLS not supported here
+c: QUIT
+s: 221 Goodbye...
+s: Connection closed by foreign host.
 ```
 
 ```sh
