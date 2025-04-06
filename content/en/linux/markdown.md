@@ -1,17 +1,16 @@
 +++
 date = "2015-01-28T20:07:00Z"
-modified = ""
+modified = "2025-04-06"
 title = "Markdown Syntax"
 linktitle = ""
 description = ""
 keywords = ["linux", "howto", "markdown"]
 language = "en"
-author = ""
-tags = ["howto"]
+author = "TaMeR"
+tags = ["howto", "markdown"]
 groups = ["linux"]
 categories = ["linux"]
 +++
-
 
 *   [Block Elements](#block)
     *   [Paragraphs and Line Breaks](#p)
@@ -190,7 +189,6 @@ Markdown will generate:
 
     This is [an example][id] reference-style link.
     [id]: http://example.com/  "Optional Title Here"
-
 
 <h3 id="em">Emphasis</h3>
 

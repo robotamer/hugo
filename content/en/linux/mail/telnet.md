@@ -122,6 +122,7 @@ S: * CAPABILITY IMAP4rev1 AUTH=PLAIN
 S: a003 OK CAPABILITY completed
 C: a004 LOGIN joe password
 S: a004 OK LOGIN completed
+C: Logout
 ```
 
 On more SMTP Example:
