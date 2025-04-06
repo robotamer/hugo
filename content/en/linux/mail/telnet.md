@@ -1,15 +1,15 @@
 +++
 date = "2025-04-04"
-modified = ""
-title = "telnet to mail server"
+title = "Telnet to mail server"
 linktitle = ""
 description = "Telnet in to remote server"
-keywords = ["linux", "telnet", "mail", "smtp", "pop3", "openssl", "citadel"]
 language = "en"
 author = "TaMeR"
-tags = ["linux", "telnet", "mail", "smtp", "openssl", "citadel", "pop3"]
+keywords = ["linux", "telnet", "mail", "smtp", "openssl", "citadel", "pop3", "imap"]
+tags = ["linux", "telnet", "mail", "smtp", "openssl", "citadel", "pop3", "imap"]
 groups = ["linux", "mail", "telnet, "openssl"]
 categories = ["linux", "mail"]
+modified = ""
 +++
 
 Lets first create a variable, so you can just copy/paste the code.  
@@ -17,6 +17,13 @@ Replace *mail.example.net* with your telnet destination domain name.
 
 ```sh
 export REMOTE_SRV=mail.example.net
+```
+
+telnet start
+------------
+```sh
+$ telnet $REMOTE_SRV 25
+$ telnet $REMOTE_SRV 143
 ```
 
 - c = Client, this is what you will enter
@@ -43,24 +50,10 @@ s: 221 Goodbye...
 s: Connection closed by foreign host.
 ```
 
-```sh
-openssl s_client -debug -starttls smtp -crlf -showcerts -connect $REMOTE_SRV:25
-```
-
-```sh
-openssl s_client -debug  -crlf -showcerts -connect $REMOTE_SRV:465
-```
-telnet start
-------------
-```sh
-$ telnet $REMOTE_SRV 25
-$ telnet $REMOTE_SRV 143
-```
-To connect using the TLS protocol on port 587, use:
+To connect using the TLS/SSL protocol
 --------------
 ```sh
-$ openssl s_client -starttls smtp -connect $REMOTE_SRV:587
-
+$ openssl s_client -debug -starttls smtp -crlf -showcerts -connect $REMOTE_SRV:25
 $ openssl s_client -debug -starttls smtp -crlf -connect $REMOTE_SRV:587
 ```
 
@@ -74,6 +67,7 @@ To use SSL on port 465:
 -----------------------
 ```sh
 $ openssl s_client -connect $REMOTE_SRV:465
+$ openssl s_client -debug  -crlf -showcerts -connect $REMOTE_SRV:465
 ```
 
 On most SMTP servers you will get a list of commands back when using the Extended Hello (EHLO) command:
@@ -97,7 +91,6 @@ AHVzZXJuYW1lAHBhc3N3b3Jk
 AUTH PLAIN AHVzZXJuYW1lAHBhc3N3b3Jk
 235 Authentication successful
 ```
-
 Using LOGIN authentication
 -----------
 The LOGIN mechanism also expects base64 encoded username and password, but separately. First, generate the base64 encoded strings:
@@ -131,7 +124,7 @@ C: a004 LOGIN joe password
 S: a004 OK LOGIN completed
 ```
 
-SMTP Example:
+On more SMTP Example:
 ----
 ```sh
 $ telnet 172.16.6.165 25
