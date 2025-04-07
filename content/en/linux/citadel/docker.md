@@ -76,7 +76,7 @@ docker run -d --restart=unless-stopped --network host \
 - Choice 2: Bind to `0.0.0.0` except change port 80 to 8080. 
 
 ```sh
-docker run -d --restart=unless-stopped --hostname=${CIT_DOMAIN_NAME}  \
+docker run -d --restart=unless-stopped --hostname=$CIT_DOMAIN_NAME  \
    --volume=/usr/local/citadel:/citadel-data \
    --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \
    --volume=/usr/local/webcit/static.local:/usr/local/webcit/static.local \
@@ -125,6 +125,15 @@ docker rm citadel
 docker pull citadeldotorg/citadel
 -- Create (see above))
 ```
+
+Backup
+-------
+```sh
+docker stop citadel
+docker rename citadel citadel_02
+-- Create (see above))
+```
+
 
 Attach will attach to ctdlvisor
 -----------------
