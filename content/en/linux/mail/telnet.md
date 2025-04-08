@@ -7,7 +7,7 @@ language = "en"
 author = "TaMeR"
 keywords = ["linux", "telnet", "mail", "smtp", "openssl", "citadel", "pop3", "imap"]
 tags = ["linux", "telnet", "mail", "smtp", "openssl", "citadel", "pop3", "imap"]
-groups = ["linux", "mail", "telnet, "openssl"]
+groups = ["linux", "mail", "telnet", "openssl"]
 categories = ["linux", "mail"]
 modified = ""
 +++

@@ -8,7 +8,7 @@ MetaDataFormat = "toml"
 pygmentsuseclasses = false
 defaultContentLanguage = 'en'
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
-paginate = "10" # Number of posts per page
+pagination.pagerSize = "10" #paginate = "10" # Number of posts per page
 
 enableGitInfo = true
 
@@ -105,3 +105,9 @@ mathjax = false # Enable MathJax
     url = '/code/go.html'
     weight = -180
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+    [markup.goldmark.renderer]
+      unsafe = true
