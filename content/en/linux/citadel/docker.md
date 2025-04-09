@@ -76,31 +76,11 @@ docker run -d --restart=unless-stopped --network host \
 - Choice 2: Bind to `0.0.0.0` except change port 80 to 8080. 
 
 ```sh
-docker run -d --restart=unless-stopped --hostname=$CIT_DOMAIN_NAME  \
-   --volume=/usr/local/citadel:/citadel-data \
-   --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \
-   --volume=/usr/local/webcit/static.local:/usr/local/webcit/static.local \
-   -p 25:25     \
-   -p 110:110   \
-   -p 119:119   \
-   -p 143:143   \
-   -p 465:465   \
-   -p 504:504   \
-   -p 563:563   \
-   -p 587:587   \
-   -p 993:993   \
-   -p 995:995   \
-   -p 5222:5222 \
-   -p 8080:80   \
-   --name=citadel citadeldotorg/citadel
+docker run -d --restart=unless-stopped --network host \
+    --volume=/usr/local/citadel:/citadel-data \
+    --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \
+    --name=citadel citadeldotorg/citadel --http-port=8080 --https-port=8443
 ```
-
-Note: We don't need port 443 because we will run that behind a webserver proxy
-
-- Choice 3: Bind to specific domain 
-
-We will have to use a bridge for that. See docker manual.
-________________
 
 Stop
 ----
