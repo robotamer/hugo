@@ -12,9 +12,6 @@ groups = ["linux", "citadel"]
 categories = ["linux", "citadel"]
 +++
 
-Lighttpd Webserver for Citadel
-==============================
-
 Lighttpd is a free and open-source web server, designed for speed, efficiency, and flexibility.
 
 This tutorial is designed to work hand in glove with our [citadel docker](/linux/citadel/docker) installation tutorial. 

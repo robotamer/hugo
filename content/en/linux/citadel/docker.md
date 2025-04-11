@@ -12,11 +12,6 @@ groups = ["linux", "citadel"]
 categories = ["linux", "citadel"]
 +++
 
-
-
-Citadel via Docker Installation Manual
-==============
-
 We will use `mail` as hostname, `mail.example.net` as our domain, 
 and `203.0.113.1` as our public facing IP address on this page for the citadel server. 
 Replace with your own. 
