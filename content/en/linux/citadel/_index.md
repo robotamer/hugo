@@ -18,7 +18,7 @@ and `203.0.113.1` as our public facing IP address in these howto`s for the citad
 
 Do these in the right sequence:
 
-1. [docker](./docker)
-2. [lighttpd](./lighttpd)
-3. [Let's Encrypt](./certbot)
+1. [docker](/linux/citadel/docker)
+2. [lighttpd](/linux/citadel/lighttpd)
+3. [Let's Encrypt](/linux/citadel/certbot)
 
