@@ -14,8 +14,8 @@ categories = ["linux", "citadel"]
 
 Lighttpd is a free and open-source web server, designed for speed, efficiency, and flexibility.
 
-This tutorial is designed to work hand in glove with our [citadel docker](/linux/citadel/docker) installation tutorial. 
-We will install this on Void Linux but besides the installation, everything should work on any NIX.
+This tutorial is designed to work hand in glove with our [citadel docker](/linux/citadel/) installation tutorial. 
+We will install this on Void Linux but besides the lighttpd installation, everything should work on any NIX.
 
 Void Linux Installation
 -----------------------

@@ -9,8 +9,16 @@ Here you may find documentation, manuals and HowTo's related to [Citadel](https:
 
 ___________
 
+Installation via docker
+-----------------------
+
+We will use `mail` as hostname, `mail.example.net` as our domain, 
+and `203.0.113.1` as our public facing IP address in these howto`s for the citadel server. 
+*Replace with your own*. 
+
 Do these in the right sequence:
 
-1. [docker](docker.html)
-2. [lighttpd](lighttpd.html)
-3. [Let's Encrypt](certbot.html)
+1. [docker](./docker)
+2. [lighttpd](./lighttpd)
+3. [Let's Encrypt](./certbot)
+

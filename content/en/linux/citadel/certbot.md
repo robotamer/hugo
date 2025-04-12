@@ -16,13 +16,14 @@ Signed TLS certificates are now available at no cost from the nonprofit [Let's E
 To use these on a Citadel system, you will need the [Certbot](https://certbot.eff.org) utility installed. 
 
 ```sh
-HOSTNAME=mycitadel.example.com
+export CIT_DOMAIN_NAME=mail.example.net
+
 certbot certonly --agree-tos --non-interactive --text --rsa-key-size 4096 \
-	--email admin@${HOSTNAME} \
+	--email admin@${CIT_DOMAIN_NAME} \
 	--webroot --webroot-path /usr/local/webcit \
-	--domains ${HOSTNAME}
-cp /etc/letsencrypt/live/${HOSTNAME}/privkey.pem /usr/local/citadel/keys/citadel.key 
-cp /etc/letsencrypt/live/${HOSTNAME}/fullchain.pem /usr/local/citadel/keys/citadel.cer
+	--domains ${CIT_DOMAIN_NAME}
+cp /etc/letsencrypt/live/${CIT_DOMAIN_NAME}/privkey.pem /usr/local/citadel/keys/citadel.key 
+cp /etc/letsencrypt/live/${CIT_DOMAIN_NAME}/fullchain.pem /usr/local/citadel/keys/citadel.cer
 ```
 
 
@@ -40,8 +41,8 @@ docker stop citadel
 ________
 ```sh
 #!/bin/sh
-cp /etc/letsencrypt/live/${HOSTNAME}/fullchain.pem /usr/local/citadel/keys/citadel.cer
-cp /etc/letsencrypt/live/${HOSTNAME}/privkey.pem /usr/local/citadel/keys/citadel.key
+cp /etc/letsencrypt/live/${CIT_DOMAIN_NAME}/fullchain.pem /usr/local/citadel/keys/citadel.cer
+cp /etc/letsencrypt/live/${CIT_DOMAIN_NAME}/privkey.pem /usr/local/citadel/keys/citadel.key
 wait
 docker start citadel
 ```
