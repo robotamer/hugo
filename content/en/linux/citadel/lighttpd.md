@@ -42,11 +42,12 @@ lighttpd -tt -f /etc/lighttpd/lighttpd.conf
 lighttpd -D -f /etc/lighttpd/lighttpd.conf
 ```
 
-- Enable Lighttpd to start automatically at boot time:
+- Enable Lighttpd to start automatically at boot time (This is *Void linux*/*runit init* specific. Check your distros init system documentation):
 
 ```sh
 ln -s /etc/sv/lighttpd /var/service/
 ```
+
 - Start the Lighttpd service:
 
 ```sh
@@ -59,12 +60,12 @@ sv start lighttpd
 # See /usr/share/doc/lighttpd
 # and http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs:ConfigurationOptions
 
-server.username		= "_lighttpd"
-server.groupname	= "_lighttpd"
-server.document-root	= "/srv/www/lighttpd"
-server.errorlog		= "/var/log/lighttpd/error.log"
-dir-listing.activate	= "enable"
-index-file.names	= ( "index.html" )
+server.username       = "_lighttpd"
+server.groupname      = "_lighttpd"
+server.document-root  = "/srv/www/lighttpd"
+server.errorlog       = "/var/log/lighttpd/error.log"
+dir-listing.activate  = "enable"
+index-file.names      = ( "index.html" )
 
 server.modules += ( "mod_proxy", "mod_openssl" )
 
@@ -78,15 +79,15 @@ $SERVER["socket"] == ":443" {
 
 
 $HTTP["host"] == "mail.example.net" {
-  proxy.balance = "hash"
-  proxy.server = (
-    "" => (
-      "citadel" => (
-        "host" => "127.0.1.2",
-        "port" => "8080"
-      )
+    proxy.balance = "hash"
+    proxy.server = (
+        "" => (
+            "citadel" => (
+                "host" => "127.0.1.2",
+                "port" => "8080"
+            )
+        )
     )
-  )
     ssl.pemfile = "/etc/letsencrypt/live/mail.example.net/fullchain.pem"
     ssl.privkey = "/etc/letsencrypt/live/mail.example.net/privkey.pem"
 }

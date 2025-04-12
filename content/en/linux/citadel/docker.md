@@ -38,6 +38,7 @@ export CIT_IP_ADDRESS=203.0.113.1
 ```sh
 mkdir -p /usr/local/citadel
 mkdir -p /usr/local/webcit/.well-known
+mkdir -p /usr/local/webcit/static.local/t
 echo "127.0.1.1   $CIT_DOMAIN_NAME   $CIT_HOST_NAME">>/etc/hosts
 echo "$CIT_IP_ADDRESS   $CIT_DOMAIN_NAME   $CIT_HOST_NAME">>/etc/hosts
 ```
@@ -74,6 +75,7 @@ docker run -d --restart=unless-stopped --network host \
 docker run -d --restart=unless-stopped --network host \
     --volume=/usr/local/citadel:/citadel-data \
     --volume=/usr/local/webcit/.well-known:/usr/local/webcit/.well-known \
+    --volume=/usr/local/webcit/static.local:/usr/local/webcit/static.local \
     --name=citadel citadeldotorg/citadel --http-port=8080 --https-port=8443
 ```
 
